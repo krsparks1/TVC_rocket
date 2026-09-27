@@ -18,7 +18,7 @@ char fileName[16];
 // =========================================================================
 //  1. HARDWARE CALIBRATION & REVERSING TOGGLES
 // =========================================================================
-const int CALIBRATED_CENTER_X = 91;
+const int CALIBRATED_CENTER_X = 90;
 const int CALIBRATED_CENTER_Y = 82; 
 const float AXIS_Y_MULTIPLIER = 1; 
 const int STRICT_TILT_LIMIT = 15; 
