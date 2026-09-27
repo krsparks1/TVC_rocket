@@ -7,8 +7,8 @@ Servo servoY;
 // =========================================================================
 //  YOUR VERIFIED CALIBRATION VALUES 
 // =========================================================================
-const int CALIBRATED_CENTER_X = 98; 
-const int CALIBRATED_CENTER_Y = 85; 
+const int CALIBRATED_CENTER_X = 95; 
+const int CALIBRATED_CENTER_Y = 90; 
 
 // Base radius of your circular sweep (in degrees)
 const float BASE_RADIUS_DEGREES = 5.0; 
@@ -35,7 +35,7 @@ void setup() {
 
   servoX.write(CALIBRATED_CENTER_X);
   servoY.write(CALIBRATED_CENTER_Y);
-  delay(1500)
+  delay(1500);
 }
 
 void loop() {

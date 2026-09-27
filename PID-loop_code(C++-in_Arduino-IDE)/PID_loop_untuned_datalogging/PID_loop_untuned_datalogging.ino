@@ -18,10 +18,10 @@ char fileName[16];
 // =========================================================================
 //  1. HARDWARE CALIBRATION & REVERSING TOGGLES
 // =========================================================================
-const int CALIBRATED_CENTER_X = 98; //92
-const int CALIBRATED_CENTER_Y = 86; //95
-const float AXIS_Y_MULTIPLIER = 1.5; 
-const int STRICT_TILT_LIMIT = 10; 
+const int CALIBRATED_CENTER_X = 91;
+const int CALIBRATED_CENTER_Y = 82; 
+const float AXIS_Y_MULTIPLIER = 1; 
+const int STRICT_TILT_LIMIT = 15; 
 
 const float ALPHA = 0.98; 
 
@@ -31,9 +31,9 @@ const bool INVERT_YAW   = true;
 // =========================================================================
 //  2. PID TUNING CONSTANTS
 // =========================================================================
-const float Kp = 0.11;  
-const float Ki = 0;  
-const float Kd = 0.0533;  
+const float Kp = 0.5;  
+const float Ki = 0.1;  
+const float Kd = 0.2;  
 
 // Noise Filter Buffer
 const int FILTER_SIZE = 5; 

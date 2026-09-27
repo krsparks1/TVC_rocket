@@ -9,11 +9,11 @@ Servo servoY;
 // =========================================================================
 // If your inner ring tilts slightly left/right or up/down when booted,
 // change these values away from 90 (try values between 80 and 100) until straight.
-const int CALIBRATED_CENTER_X = 98; 
-const int CALIBRATED_CENTER_Y = 85; 
+const int CALIBRATED_CENTER_X = 90; 
+const int CALIBRATED_CENTER_Y = 80; 
 
 // Expanded test parameter: 15 degrees of sweeping freedom
-const int MAX_TVC_TILT_DEGREES = 10; 
+const int MAX_TVC_TILT_DEGREES = 15; 
 
 // Software limits calculated automatically
 const int MIN_LIMIT_X = CALIBRATED_CENTER_X - MAX_TVC_TILT_DEGREES;
