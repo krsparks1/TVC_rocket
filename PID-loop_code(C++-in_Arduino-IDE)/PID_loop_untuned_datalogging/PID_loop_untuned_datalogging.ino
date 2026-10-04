@@ -31,9 +31,9 @@ const bool INVERT_YAW   = true;
 // =========================================================================
 //  2. PID TUNING CONSTANTS
 // =========================================================================
-const float Kp = 0.5;  
-const float Ki = 0.1;  
-const float Kd = 0.2;  
+const float Kp = 0.3;  
+const float Ki = 0.0;  
+const float Kd = 0.09;  
 
 // Noise Filter Buffer
 const int FILTER_SIZE = 5; 
