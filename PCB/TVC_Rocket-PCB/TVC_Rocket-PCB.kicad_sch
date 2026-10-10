@@ -4789,7 +4789,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "teensy4.1:teensy4.1"
 			(at 133.35 106.68 0)
 			(hide yes)
 			(show_name no)
